@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+
+body header button {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: 25px;
+  border: none;
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+main header {
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border: none;
+}
+
+main header li {
+  list-style: none;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body header nav {
+  position: absolute;
+  width: 100%;
+  top: 70px;
+  left: 0px;
+  z-index: 10;
+  background-color: white;
+  border: 1px solid lightgray;
+}
+
+body header nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+body header nav ul li {
+  list-style: none;
+  margin-top: 5px;
+}
+
+.buttons {
+  margin-top: 10px;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.buttons li {
+  width: 100%;
+}
+
+.buttons li button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-top: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+}
+
+.active {
+  border-bottom: 3px solid black;
+}
+
+.active a {
+  color: black;
+}
+
+body header nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 550;
+  color: rgb(150, 147, 147);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+main h1 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+main section li {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  border: 1px solid lightgray;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+main section li button {
+  background-color: rgba(49, 50, 55, 1);
+  color: white;
+  border: none;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+main section li a {
+  text-decoration: none;
+}
+
+main header img {
+  width: 100vw;
+}
+
+main article {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+main h2 {
+  text-align: start;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+main article h3 {
+  margin-top: 10px;
+}
+
+main article p {
+  margin-top: 5px;
+  color: lightgray;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+footer button {
+  height: 25px;
+  border: none;
+  background-color: lightblue;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+}
+
+footer nav {
+  display: none;
+}
