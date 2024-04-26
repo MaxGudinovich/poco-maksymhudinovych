@@ -1,0 +1,30 @@
+.user {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 50px;
+
+  &__photo {
+    grid-column: 1 / 2;
+    width: 400px;
+    height: 600px;
+  }
+
+  &__content {
+    grid-column: 2 / 4;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+
+    &_h2 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-top: 20px;
+    }
+
+    &_text {
+      margin-left: 20px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}

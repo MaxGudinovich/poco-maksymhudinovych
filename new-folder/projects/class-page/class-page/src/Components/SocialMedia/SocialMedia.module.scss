@@ -1,0 +1,13 @@
+.social {
+  display: flex;
+  margin-top: 20px;
+
+  &_icon {
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+  &_icon:hover {
+    scale: 1.2;
+  }
+}
