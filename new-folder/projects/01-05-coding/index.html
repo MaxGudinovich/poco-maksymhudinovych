@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <form id="form">
+      <label for="age">Age:</label>
+      <input
+        type="number"
+        id="age"
+        name="age"
+        min="0"
+        max="120"
+        placeholder="Your age"
+        required
+      />
+      <label for="retirement-age">Retirement Age:</label>
+      <input
+        type="number"
+        id="retirement-age"
+        name="retirement-age"
+        min="0"
+        max="120"
+        placeholder="Your desired retirement age"
+        required
+      />
+      <button type="submit">Calculate</button>
+    </form>
+    <div id="result" class="result"></div>
+  </body>
+</html>
